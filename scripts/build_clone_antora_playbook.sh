@@ -3,7 +3,7 @@
 # Remove the docs playbook repository
 rm -rf docs-playbook
 
-BRANCH_NAME="prod"
+BRANCH_NAME="steven_one_version"
 if [ "$ROUTE" ]; then
     if [ "$ROUTE" == "$SITE_STAGING_DOMAIN" ]; then
         BRANCH_NAME="staging"
